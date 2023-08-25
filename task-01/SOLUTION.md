@@ -25,3 +25,5 @@ it is used to see the changes made(but is dosnt show what changes)
 ### git push <repository_name> <branch_name>
 it used to push contents to the repository after adding and commitng
 
+### solution.png
+https://github.com/Sauravroy34/-amfoss-task/blob/main/task-01/codes/solution.png
