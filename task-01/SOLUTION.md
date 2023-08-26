@@ -8,7 +8,7 @@ It is used to list the contents present in the working directory
 It is used to make new directory or folder in the cuurent directory or folder
 
 # Some git commands used 
-### git auth login
+### gh auth login
 used to login to your github account
 
 ### git clone 
