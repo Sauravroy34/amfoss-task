@@ -22,7 +22,7 @@ It is used to switch branches
 it is used to see the changes made(but is dosnt show what changes)
 
 # Commands used to push 
-### git push <repository_name> <branch_name>
+### git push 
 it used to push contents to the repository after adding and commitng
 
 ### solution.png
