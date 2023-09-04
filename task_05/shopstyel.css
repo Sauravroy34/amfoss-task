@@ -33,7 +33,7 @@ body {
     visibility: hidden;
 }
 .container {
-    max-height: 1000px;
+    max-height: 100%;
     
     margin-top: 50px;
     display: flex;
