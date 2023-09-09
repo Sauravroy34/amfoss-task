@@ -44,7 +44,7 @@ async def on_message(message):
 
 
 
-    with open("score.csv","w+") as file:
+    with open("score.csv","a") as file:
           writer = csv.writer(file)
           writer.writerow((j.split()))
 
