@@ -3,12 +3,14 @@ import scraper
 import os 
 from discord.ext import commands
 import csv
+from dotenv import load_dotenv , dotenv_values
 score = []
 k= ""
 from datetime import datetime
 
 # datetime object containing current date and time
 now = datetime.now()
+load_dotenv()
  
 
 # dd/mm/YY H:M:S
