@@ -1,10 +1,12 @@
 import discord 
 import scraper
+import os 
 from discord.ext import commands
 import csv
 score = []
 k= ""
 
+token = os.getenv("SECRET_KEY")
 Client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
 #bot is getting ready
@@ -44,7 +46,7 @@ async def on_message(message):
 
 
 
-    with open("score.csv","a") as file:
+    with open("score.csv","w+") as file:
           writer = csv.writer(file)
           writer.writerow((j.split()))
 
@@ -66,4 +68,4 @@ async def on_message(message):
 
 
         
-Client.run("MTE0OTM0MTk4ODY3NjcxODcwMw.Gr1xB4.0Y6Vwp4kpOBa4RJYG2edVwgy6RioToac2icOpQ")
+Client.run(token)
