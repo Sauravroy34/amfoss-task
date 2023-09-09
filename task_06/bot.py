@@ -5,6 +5,15 @@ from discord.ext import commands
 import csv
 score = []
 k= ""
+from datetime import datetime
+
+# datetime object containing current date and time
+now = datetime.now()
+ 
+
+# dd/mm/YY H:M:S
+dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+time_now = "".join(dt_string)
 
 token = os.getenv("SECRET_KEY")
 Client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
@@ -46,9 +55,10 @@ async def on_message(message):
 
 
 
-    with open("score.csv","w+") as file:
+    with open("score.csv","a") as file:
           writer = csv.writer(file)
-          writer.writerow((j.split()))
+          k = j + " " + time_now
+          writer.writerow((k.split()))
 
     await message.channel.send(scraper.check())
     
