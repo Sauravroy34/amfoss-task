@@ -1,14 +1,10 @@
 import discord 
 import scraper
-import os 
 from discord.ext import commands
 import csv
 score = []
 k= ""
-#1149341988676718703
-#bfc2f802febddcf5ad8eec0033b663a4ba51729a27cc02855a0d2d44652b0b62
-#
-token = os.getenv("SECRET_KEY")
+
 Client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
 #bot is getting ready
@@ -19,7 +15,7 @@ async def on_ready():
 
 @Client.command()
 async def hello(ctx):
-    await ctx.send(stuff.intro())
+    await ctx.send(scraper.intro())
 
 
    
@@ -33,12 +29,12 @@ async def hello(ctx):
 async def on_message(message):
 
   if message.content.startswith("!help"):
-    await message.channel.send(stuff.intro())
+    await message.channel.send(scraper.intro())
 
   if message.content.startswith("!livescore"):
 
     
-    score.append(stuff.check())
+    score.append(scraper.check())
 
     for i in score:
     
@@ -52,7 +48,7 @@ async def on_message(message):
           writer = csv.writer(file)
           writer.writerow((j.split()))
 
-    await message.channel.send(stuff.check())
+    await message.channel.send(scraper.check())
     
 
   
@@ -70,4 +66,4 @@ async def on_message(message):
 
 
         
-Client.run(token)
+Client.run("MTE0OTM0MTk4ODY3NjcxODcwMw.Gr1xB4.0Y6Vwp4kpOBa4RJYG2edVwgy6RioToac2icOpQ")
