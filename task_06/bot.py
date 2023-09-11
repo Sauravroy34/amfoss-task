@@ -4,7 +4,7 @@ import os
 from discord.ext import commands
 import csv
 from dotenv import load_dotenv 
-score = []
+
 
 
 load_dotenv()
@@ -38,17 +38,17 @@ async def on_message(message):
   if message.content.startswith("!livescore"):
 
     
-    score.extend(scraper.check().split("\n"))
+    
 
  
 
 
 
-    with open("score.csv","a") as file:
+    with open("score.csv","a",newline="") as file:
           writer = csv.writer(file)
           
-          writer.writerow((score))
-
+          writer.writerow((scraper.check().split("\n")))
+         
     await message.channel.send(scraper.check())
     
 

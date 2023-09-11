@@ -1,6 +1,5 @@
 import requests
 import bs4
-import csv 
 from datetime import datetime
 now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
