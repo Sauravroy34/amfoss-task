@@ -3,20 +3,11 @@ import scraper
 import os 
 from discord.ext import commands
 import csv
-from dotenv import load_dotenv , dotenv_values
+from dotenv import load_dotenv 
 score = []
-k= ""
-from datetime import datetime
 
-# datetime object containing current date and time
-now = datetime.now()
+
 load_dotenv()
- 
-
-# dd/mm/YY H:M:S
-dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-time_now = "".join(dt_string)
-
 token = os.getenv("SECRET_KEY")
 Client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
 
@@ -47,20 +38,16 @@ async def on_message(message):
   if message.content.startswith("!livescore"):
 
     
-    score.append(scraper.check())
+    score.extend(scraper.check().split("\n"))
 
-    for i in score:
-    
-        j = i.split("\n")
-    str1 = ""
-    j = str1.join(j)
+ 
 
 
 
     with open("score.csv","a") as file:
           writer = csv.writer(file)
-          k = j + " " + time_now
-          writer.writerow((k.split()))
+          
+          writer.writerow((score))
 
     await message.channel.send(scraper.check())
     
