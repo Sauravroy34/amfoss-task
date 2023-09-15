@@ -1,6 +1,6 @@
 body {
-    width:400px;
-    height:400px;
+    width:430px;
+    height:430px;
     background-image: url(assests/mount.jpg);
     background-size: cover;
 }
@@ -8,12 +8,17 @@ body {
     text-align: center;
 }
 #tem {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 120px;
 }
 #desc {
     font-size: 30px;
-    margin-top: 40px;
+    margin-top: 30px;
+}
+.temperature {
+    text-align: center;
+}
+#feel { font-size: 25px;
 }
 

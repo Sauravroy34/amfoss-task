@@ -1,6 +1,8 @@
 let place_name = document.getElementById("city")
 let button = document.getElementById("search")
 
+
+
 button.addEventListener("click",async () =>{
 
 let place = place_name.value;
@@ -32,8 +34,10 @@ p.then((response)=>{
     .then((got)=> {console.log(got.weather[0].description)
         let tem = got.main.temp -273.15
         let desc = got.weather[0].description
-        document.getElementById("tem").innerText = Math.round(tem)
+        document.getElementById("tem").innerText = Math.round(tem) 
         document.getElementById("desc").innerText = desc
+        let feel = got.main.feels_like
+        document.getElementById("feel").innerText = `feels like ${Math.round(feel - 273.15)}`
         console.log(got)
         let imageObjectUrl = `https://openweathermap.org/img/wn/${got.weather[0].icon}@2x.png`
         document.getElementById("show").src = imageObjectUrl
