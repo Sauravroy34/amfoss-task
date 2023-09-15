@@ -22,11 +22,12 @@ p.then((response)=>{
     else {
         document.body.style.backgroundImage = "url(assests/mount.jpg)"
     }
-
     
+    let name = response[0].name
      let lat = response[0].lat
      let long = response[0].lon
-
+     document.getElementById("name").innerText = name
+    
     q = fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=8a301729002ef55b2b877d24307dc509`)
     q.then((got) => {
         return got.json()
@@ -41,6 +42,7 @@ p.then((response)=>{
         console.log(got)
         let imageObjectUrl = `https://openweathermap.org/img/wn/${got.weather[0].icon}@2x.png`
         document.getElementById("show").src = imageObjectUrl
+        
 
         
     })
