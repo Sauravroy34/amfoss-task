@@ -8,7 +8,7 @@ def check():
         req = requests.get("https://www.espncricinfo.com/live-cricket-score")
 
     except:
-        print("please try again later")
+        return("please try again later")
     soup = bs4.BeautifulSoup(req.text,"lxml")
     score = soup.find("div", class_= "ci-team-score ds-flex ds-justify-between ds-items-center ds-text-typo ds-my-1")
     team1 = soup.find("p",class_ = "ds-text-tight-m ds-font-bold ds-capitalize ds-truncate !ds-text-typo-mid3")

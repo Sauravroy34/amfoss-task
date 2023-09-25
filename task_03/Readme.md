@@ -1,3 +1,2 @@
-This challenge became a lot easier thanks to google bard and chatgpt
-<br>
-all these programs have been tested via online compiler 
+# Hello world
+this challenge was difficult since i knew one language but after some grinding and learning i did it 
