@@ -1,25 +1,39 @@
+used ssh login to login
+
+
+used ls and cat to read the file
 NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL- level-0
 
+
+used cat ./- 
 rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi - level1
 
-
+used cat s and pressed tab button for auto complete
 aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG - level2
 
+used cd to get to inhere and used ls -a to show hidden stuff and used cat .hidden
 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe - level3
 
+used file methodto solve this problem
 lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR - level4
 
+used find -type f -size 1033
 P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU - level5
 
-
+used find / -user bandit7 -group bandit6 size 33c 2>dev/null
 z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S - level6
 
+used grep -a millionth data.txt
 TESKZC0XvTetK0S9xNwm25STk5iWrBvP - level7
 
+tried doing it with inbuild python but after learning used cat |data.txt|sort|uniq -u
 EN632PlfYiZbn3PhVK3XOGSlNInNE00t - level8
 
+used grep-a = data.txt
 G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s - level9
 
+
+used cat,and used decoded it using online base 64 decoder 
 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM -level10
 
 
