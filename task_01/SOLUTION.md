@@ -26,4 +26,5 @@ it is used to see the changes made(but is dosnt show what changes)
 it used to push contents to the repository after adding and commitng
 
 ### solution.png
-https://github.com/Sauravroy34/-amfoss-task/blob/main/task-01/codes/solution.png
+![solution](https://github.com/Sauravroy34/amfoss-task/assets/136881235/175ed305-6bbd-4af8-b609-80dc9e07faeb)
+
