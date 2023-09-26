@@ -9,7 +9,7 @@ I am Saurav Kumar Roy a first year  ELC student from kolkata .I dived into the w
 # Task list 
 **Tasks List**|**Description**|**Status**
 --------------|---------------|---------------
-[Introspection](https://github.com/Sauravroy34/amfoss-task/blob/main/README.md)|Introspection|Completed
+[Introspection](https://github.com/Sauravroy34/amfoss-task/tree/main/Introspection)|Introspection|Completed
 [Task-00](https://github.com/Sauravroy34/amfoss-task/tree/main/task_00)|Installing Ubuntu|Completed
 [Task-01](https://github.com/Sauravroy34/amfoss-task/tree/main/task_01)|Terminal wizard|Completed
 [Task-02](https://github.com/Sauravroy34/amfoss-task/tree/main/task_02)|Lessgo Hugo|Completed
