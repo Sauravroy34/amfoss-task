@@ -1,4 +1,4 @@
-![shop](https://github.com/Sauravroy34/amfoss-task/assets/136881235/37cba3c8-e85a-4506-b433-e5f7553f8403)# Hypertext Mockup Language
+# Hypertext Mockup Language
 
 This challenge was little bit tough for me since i didnt had any idea about html and css so i had to spend some hours learning those it took me approximately 4 days to complete this tasks 
 ## Landing page
