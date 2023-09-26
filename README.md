@@ -4,24 +4,6 @@
 Hi <br />
 I am Saurav Kumar Roy a first year  ELC student from kolkata .I dived into the world of coding in class 12 and till now the journey is amazing. I like developing stuff. I like trying new things , learning new things and find new ways of doing things and i believe innovation is the most crucial thing humanity needs. I have intreset in Ai and machine learning stuff
 
-# INTROSPECTION
-## Why Choose Me?
-I like solving problems and my biggest strength is that i dont give up easily i am not afraid of gridin 
- i like coding and i see amfoss as a great way to enhance my skills more.
- maybe i will  develop some or to get new skills or maybe unlock my True potential
- 
- 
-## whats your plan for next 6 months?
-My vision is simple, to get more and more better at whatever i am doing, becoming better than yesterday 
-and learning new things not making same mistake and to grow expoentaially,and gather and sharpen skills
-
-
-
-## How would you contribute back to the club?
-i am ready to die for my club(just kidding ;) i will try my best to contribute to the club by participating in the club activites and club tasks <br> this club will me as big priorites as my academics
-
-## Do you have any feedback on the selection process?
-some tasks were hard some tasks even took me a week to finsish but overall i would say that i learned new things and did some cool stuff which i never ever think of doing and this is what matters learning and growing.
 
 
 # Task list 
@@ -44,3 +26,9 @@ some tasks were hard some tasks even took me a week to finsish but overall i wou
 [Task-13](https://github.com/Sauravroy34/amfoss-task/tree/main/task_13)|vim|Complted
 [Task-14](https://github.com/Sauravroy34/amfoss-task/tree/main/task_14)|Bandit|Completed
 [Task-15](https://github.com/Sauravroy34/amfoss-task/tree/main/task_15)|Project Euler|Completed 
+
+
+
+# My veiws about the tasks
+Well tasks was not easy for a begginer like me it was not like some simple google search and done instead it required some learning and application .But overall i enjoyed doing these tasks 
+
