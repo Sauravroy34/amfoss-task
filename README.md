@@ -29,6 +29,6 @@ I am Saurav Kumar Roy a first year  ELC student from kolkata .I dived into the w
 
 
 
-# My veiws about the tasks
+# About My Tasks
 Well tasks was not easy for a begginer like me it was not like some simple google search and done instead it required some learning and application .But overall i enjoyed doing these tasks 
 
