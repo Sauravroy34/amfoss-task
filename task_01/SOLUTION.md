@@ -1,5 +1,5 @@
 # Some linux command used 
-### cd <dirname/path>
+### ```cd <dirname/path>```
 It is used to change the working directory
 ### ls 
 It is used to list the contents present in the working directory
