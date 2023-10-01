@@ -18,11 +18,11 @@ I am Saurav Kumar Roy a first year  ELC student from kolkata .I dived into the w
 [Task-05](https://github.com/Sauravroy34/amfoss-task/tree/main/task_05)|Hyper Text Mockup Language|Completed
 [Task-06](https://github.com/Sauravroy34/amfoss-task/tree/main/task_06)|Cricket Vault|Completed
 [Task-07](https://github.com/Sauravroy34/amfoss-task/tree/main/task_07)|AK-47|Completed
-[Task-08]|poke-search|Unattempted
-[Task-09]|GeoQuest|Unattempted
-[Task-10]|RuskOs|Unattempted
-[Task-11]|TinkerCAD|Unattempted
-[Task-12]|Godot|Unattempted
+Task-08|poke-search|Unattempted
+Task-09|GeoQuest|Unattempted
+Task-10|RuskOs|Unattempted
+Task-11|TinkerCAD|Unattempted
+Task-12|Godot|Unattempted
 [Task-13](https://github.com/Sauravroy34/amfoss-task/tree/main/task_13)|vim|Complted
 [Task-14](https://github.com/Sauravroy34/amfoss-task/tree/main/task_14)|Bandit|Completed
 [Task-15](https://github.com/Sauravroy34/amfoss-task/tree/main/task_15)|Project Euler|Completed 
